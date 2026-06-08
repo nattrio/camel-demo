@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"regexp"
 	"strings"
 )
@@ -34,11 +33,4 @@ func capitalizeWordsFromIndex(words []string, index int) []string {
 	}
 
 	return capitalizedWords
-}
-
-func main() {
-	input := "Hello world 123-1"
-	output := ToCamelCase(input)
-	fmt.Printf("Input:  %q\n", input)
-	fmt.Printf("Output: %q\n", output)
 }
